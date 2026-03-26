@@ -1,0 +1,21 @@
+@-moz-document url-prefix("https://www.cyoa.qzz.io/game") {
+.game-layout {
+    margin: 0 !important;
+}
+.game-sidebar {
+    padding: 10px !important;
+}
+.game-player {
+    margin-left: 5px !important;
+    width: 115% !important;
+    top: 0px !important;
+}
+.player-toolbar {
+    opacity: 0.25;
+    transition: opacity 0.2s ease-out;
+}
+
+.player-toolbar:hover {
+    opacity: 1;
+}
+}
